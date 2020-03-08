@@ -110,6 +110,7 @@ class SolidClient {
         authenticate: {
           redirect_uri: redirectUrl,
           response_type: responseType,
+          scope: 'openid profile email'
         },
       },
     };
